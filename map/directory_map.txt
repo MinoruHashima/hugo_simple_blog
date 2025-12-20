@@ -1,0 +1,25 @@
+newClaude/
+├── .claude/
+│   ├── claude.md
+│   ├── rules/
+│   │   ├── coding_summary_template.md
+│   │   ├── design_summary_template.md
+│   │   ├── diary_template.md
+│   │   ├── progress_summary_template.md
+│   │   ├── project_context_template.md
+│   │   ├── shared_progress_summary_template.md
+│   │   └── workflow.md
+│   └── settings.local.json
+├── README.md
+├── context/
+│   ├── coding_summary.md
+│   ├── design_summary.md
+│   ├── progress_summary.md
+│   ├── project_context.md
+│   └── shared_progress_summary.md
+├── diary_log/
+│   └── diary.txt
+├── map/
+│   └── directory_map.txt
+└── scripts/
+    └── md_to_json.js

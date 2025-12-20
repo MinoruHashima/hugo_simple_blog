@@ -1,0 +1,14 @@
+# Progress Diary Log
+================================================================================
+
+[2025-12-20]
+- プロジェクト初期設定完了
+- ディレクトリマップ (map/directoryMap.txt) を作成
+- 進捗ログ (diary_log/diary.txt) を作成
+- 共有進捗サマリー (context/shared_progress_summary.md) を追加
+- Claude設定ファイル (.claude/claude.md) を追加
+- ワークフロールール (.claude/rules/workflow.md) を追加
+- 進捗サマリーテンプレート (.claude/rules/shared_progress_summary_template.md) を追加
+- ダイアリーテンプレート (.claude/rules/diary_template.md) を追加
+
+--------------------------------------------------------------------------------
