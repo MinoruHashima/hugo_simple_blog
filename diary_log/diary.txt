@@ -11,4 +11,16 @@
 - 進捗サマリーテンプレート (.claude/rules/shared_progress_summary_template.md) を追加
 - ダイアリーテンプレート (.claude/rules/diary_template.md) を追加
 
+[2026-01-11]
+
+~XX:XX
+- Context管理システムのリファクタリング完了
+- 新テンプレート作成（current_state_template.md, archive_template.md）
+- 既存テンプレートを簡潔版に更新（coding, design, progress）
+- アーカイブスクリプト作成（archive_context.sh, load_context.sh）
+- workflow.mdを新構造に合わせて全面改訂
+- contextファイルを新テンプレートで再作成
+- archive/ディレクトリ構造を作成
+- 技術的決定をarchiveに記録
+
 --------------------------------------------------------------------------------
