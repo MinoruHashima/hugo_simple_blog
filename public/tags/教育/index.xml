@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教育 on Good News Archive</title>
+    <link>/tags/%E6%95%99%E8%82%B2/</link>
+    <description>Recent content in 教育 on Good News Archive</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>フィンランドの教育改革が世界から注目</title>
+      <link>/posts/sample-02/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/sample-02/</guid>
+      <description>子どもの創造性と幸福度を重視したフィンランドの新しい教育カリキュラムが、各国の教育関係者から高い評価を受けている。</description>
+    </item>
+  </channel>
+</rss>

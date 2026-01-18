@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Good News Archive</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Good News Archive</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 18 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>環境</title>
+      <link>/tags/%E7%92%B0%E5%A2%83/</link>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/%E7%92%B0%E5%A2%83/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>科学</title>
+      <link>/tags/%E7%A7%91%E5%AD%A6/</link>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/%E7%A7%91%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>教育</title>
+      <link>/tags/%E6%95%99%E8%82%B2/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/%E6%95%99%E8%82%B2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>社会</title>
+      <link>/tags/%E7%A4%BE%E4%BC%9A/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/%E7%A4%BE%E4%BC%9A/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>地域</title>
+      <link>/tags/%E5%9C%B0%E5%9F%9F/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/%E5%9C%B0%E5%9F%9F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>暮らし</title>
+      <link>/tags/%E6%9A%AE%E3%82%89%E3%81%97/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/%E6%9A%AE%E3%82%89%E3%81%97/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>エネルギー</title>
+      <link>/tags/%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

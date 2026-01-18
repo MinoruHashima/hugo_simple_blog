@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Site.Title }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>{{ .Site.Title }}</h1>
+  {{ range .Site.RegularPages }}
+  <article>
+    <h2>{{ .Title }}</h2>
+    <p>{{ .Params.summary }}</p>
+    <a href="{{ .Params.external_url }}" target="_blank">記事を読む</a>
+  </article>
+  {{ end }}
+</body>
+</html>

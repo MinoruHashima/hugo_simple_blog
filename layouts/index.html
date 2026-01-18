@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Site.Title }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>{{ .Site.Title }}</h1>
+    <p class="description">{{ .Site.Params.description }}</p>
+  </header>
+
+  <main>
+    {{ $paginator := .Paginate .Site.RegularPages }}
+    {{ range $paginator.Pages }}
+    <article>
+      <h2>{{ .Title }}</h2>
+      <p class="summary">{{ .Params.summary }}</p>
+      <a href="{{ .Params.external_url }}" target="_blank" rel="noopener">記事を読む</a>
+    </article>
+    {{ end }}
+
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav class="pagination">
+      {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}" class="prev">前へ</a>
+      {{ end }}
+      <span class="page-info">{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
+      {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}" class="next">次へ</a>
+      {{ end }}
+    </nav>
+    {{ end }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+  </footer>
+</body>
+</html>

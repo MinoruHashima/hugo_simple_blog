@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Good News Archive</title>
+    <link>/</link>
+    <description>Recent content on Good News Archive</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 18 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>世界初のサンゴ礁再生プロジェクトが成功</title>
+      <link>/posts/sample-01/</link>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/sample-01/</guid>
+      <description>オーストラリアの研究チームが開発した新技術により、グレートバリアリーフの一部で サンゴの再生に成功。気候変動対策に希望の光。</description>
+    </item>
+    <item>
+      <title>フィンランドの教育改革が世界から注目</title>
+      <link>/posts/sample-02/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/sample-02/</guid>
+      <description>子どもの創造性と幸福度を重視したフィンランドの新しい教育カリキュラムが、各国の教育関係者から高い評価を受けている。</description>
+    </item>
+    <item>
+      <title>地方の空き家を活用したコミュニティ再生</title>
+      <link>/posts/sample-03/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/sample-03/</guid>
+      <description>若者の移住と空き家リノベーションを組み合わせた取り組みが全国各地で広がり、地域コミュニティの活性化に貢献している。</description>
+    </item>
+    <item>
+      <title>再生可能エネルギーが世界の電力供給の30%に到達</title>
+      <link>/posts/sample-04/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/sample-04/</guid>
+      <description>太陽光・風力発電の普及が加速し、世界全体の電力供給における再生可能エネルギーの割合が初めて30%を超えた。</description>
+    </item>
+  </channel>
+</rss>

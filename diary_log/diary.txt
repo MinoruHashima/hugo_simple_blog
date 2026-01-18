@@ -11,6 +11,16 @@
 - 進捗サマリーテンプレート (.claude/rules/shared_progress_summary_template.md) を追加
 - ダイアリーテンプレート (.claude/rules/diary_template.md) を追加
 
+[2026-01-18]
+
+~19:30
+- Hugoインストール（brew install hugo）
+- Hugoプロジェクト基本構造作成（hugo.toml, content/, layouts/, static/）
+- 自作レイアウトテンプレート作成（layouts/index.html）
+- カスタムCSS作成（static/css/style.css）
+- サンプル記事3件作成（content/posts/）
+- 動作確認完了（hugo server）
+
 [2026-01-11]
 
 ~XX:XX

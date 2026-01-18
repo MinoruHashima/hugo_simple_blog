@@ -2,9 +2,9 @@
 
 ## 1. デザインコンセプト
 
-- ターゲット：（記載予定）
-- 雰囲気：ミニマル / シンプル
-- 重視点：読みやすさ / 視認性
+- ターゲット：ポジティブな情報を求める人、国際ニュースに関心がある人
+- 雰囲気：ミニマル / シンプル / 新聞の紙面に近づける
+- 重視点：読みやすさ / 視認性 / 情報の厳選感
 
 ---
 
@@ -17,19 +17,15 @@
 --color-primary-light: #555555;
 
 /* Background & Text */
---color-bg: #ffffff;
---color-text: #1a1a1a;
---color-text-muted: #666666;
+--color-bg:rgb(227, 226, 224);
+--color-text:rgb(65, 64, 64);
+--color-text-muted:rgb(104, 104, 104);
 
-/* Accent */
---color-accent: #0066cc;
---color-error: #dc3545;
---color-success: #28a745;
 ```
 
 ### タイポグラフィ
 ```css
---font-primary: 'Noto Sans JP', sans-serif;
+--font-primary: 'Klee One', serif;
 --font-size-base: 16px;
 --font-size-sm: 14px;
 --font-size-lg: 18px;
@@ -70,7 +66,7 @@
 
 | 名前 | ブレークポイント |
 |------|-----------------|
-| Mobile | 〜639px |
+| Mobile | 〜640px |
 | Tablet | 640〜1023px |
 | Desktop | 1024px〜 |
 
@@ -78,12 +74,14 @@
 
 ## 5. 使用リソース
 
-- アイコン：（検討中）
-- フォント：Google Fonts（Noto Sans JP）
+- フォント：Google Fonts（Klee One）
+- テンプレート：自作（テーマ不使用）
+- 参考：`sampleLayout.html`（シンプルな構造）
 
 ---
 
 **注意**: デザイン変遷の詳細は `archive/design/iterations/` を参照
 
 ## 更新履歴
+- 2026-01-18：テーマ不使用・自作テンプレート方針を明記
 - 2026-01-11：簡潔版テンプレートで初版作成

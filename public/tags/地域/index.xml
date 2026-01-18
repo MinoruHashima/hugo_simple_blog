@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>地域 on Good News Archive</title>
+    <link>/tags/%E5%9C%B0%E5%9F%9F/</link>
+    <description>Recent content in 地域 on Good News Archive</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 16 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/%E5%9C%B0%E5%9F%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>地方の空き家を活用したコミュニティ再生</title>
+      <link>/posts/sample-03/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/sample-03/</guid>
+      <description>若者の移住と空き家リノベーションを組み合わせた取り組みが全国各地で広がり、地域コミュニティの活性化に貢献している。</description>
+    </item>
+  </channel>
+</rss>
