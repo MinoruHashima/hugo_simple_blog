@@ -213,6 +213,7 @@ footer p {
 
   article .summary {
     font-size: 14px;
+    height: 160px;
   }
 }
 
@@ -237,7 +238,6 @@ footer p {
 
   main {
     padding: 24px 16px 28px;
-    gap: 14px;
   }
 
   article h2 {
