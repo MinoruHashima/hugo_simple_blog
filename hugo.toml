@@ -1,9 +1,9 @@
 baseURL = "/"
 languageCode = "ja"
-title = "Good News Archive"
+title = "Good Eyes S.S"
 
 [pagination]
   pagerSize = 3
 
-[params]
-  description = "世界中のポジティブなニュースを厳選してお届け"
+# [params]
+#   description = "世界中のニュースを"

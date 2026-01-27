@@ -8,36 +8,38 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>{{ .Site.Title }}</h1>
-    <p class="description">{{ .Site.Params.description }}</p>
-  </header>
+  <div class="container">
+    <header>
+      <h1>Good Eyes S.S</h1>
+    </header>
 
-  <main>
-    {{ $paginator := .Paginate .Site.RegularPages }}
-    {{ range $paginator.Pages }}
-    <article>
-      <h2>{{ .Title }}</h2>
-      <p class="summary">{{ .Params.summary }}</p>
-      <a href="{{ .Params.external_url }}" target="_blank" rel="noopener">記事を読む</a>
-    </article>
-    {{ end }}
+    <main>
+      {{ $paginator := .Paginate .Site.RegularPages }}
+      {{ range $paginator.Pages }}
+      <article>
+        <a href="{{ .Params.external_url }}" target="_blank" rel="noopener">
+          <h2>{{ .Title }}</h2>
+          <p class="summary">{{ .Params.summary }}</p>
+        </a>
+      </article>
+      {{ end }}
 
-    {{ if gt $paginator.TotalPages 1 }}
-    <nav class="pagination">
-      {{ if $paginator.HasPrev }}
-      <a href="{{ $paginator.Prev.URL }}" class="prev">前へ</a>
+      {{ if gt $paginator.TotalPages 1 }}
+      <nav class="pagination">
+        {{ if $paginator.HasPrev }}
+        <a href="{{ $paginator.Prev.URL }}" class="prev">&lt;</a>
+        {{ end }}
+        <span class="page-info">{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
+        {{ if $paginator.HasNext }}
+        <a href="{{ $paginator.Next.URL }}" class="next">&gt;</a>
+        {{ end }}
+      </nav>
       {{ end }}
-      <span class="page-info">{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
-      {{ if $paginator.HasNext }}
-      <a href="{{ $paginator.Next.URL }}" class="next">次へ</a>
-      {{ end }}
-    </nav>
-    {{ end }}
-  </main>
+    </main>
+  </div>
 
   <footer>
-    <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+    <p>@Goodeyes s.s {{ now.Year }}</p>
   </footer>
 </body>
 </html>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>エネルギー on Good News Archive</title>
-    <link>/tags/%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC/</link>
-    <description>Recent content in エネルギー on Good News Archive</description>
+    <title>エネルギー on Good Eyes S.S</title>
+    <link>//localhost:1313/tags/%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC/</link>
+    <description>Recent content in エネルギー on Good Eyes S.S</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>再生可能エネルギーが世界の電力供給の30%に到達</title>
-      <link>/posts/sample-04/</link>
+      <link>//localhost:1313/posts/sample-04/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>/posts/sample-04/</guid>
-      <description>太陽光・風力発電の普及が加速し、世界全体の電力供給における再生可能エネルギーの割合が初めて30%を超えた。</description>
+      <guid>//localhost:1313/posts/sample-04/</guid>
+      <description>太陽光・風力発電の普及が加速し、世界全体の電力供給における再生可能エネルギーの割合が初めて30%を超えた。技術革新によりコストが大幅に低下したことに加え、各国政府の積極的な政策支援が後押しとなった。専門家は2030年までに50%達成も視野に入ると予測している。新興国でも導入が進んでおり、エネルギー格差の解消にも貢献すると期待されている。</description>
     </item>
   </channel>
 </rss>

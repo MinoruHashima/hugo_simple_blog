@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>科学 on Good News Archive</title>
-    <link>/tags/%E7%A7%91%E5%AD%A6/</link>
-    <description>Recent content in 科学 on Good News Archive</description>
+    <title>科学 on Good Eyes S.S</title>
+    <link>//localhost:1313/tags/%E7%A7%91%E5%AD%A6/</link>
+    <description>Recent content in 科学 on Good Eyes S.S</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 18 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/%E7%A7%91%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/%E7%A7%91%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>世界初のサンゴ礁再生プロジェクトが成功</title>
-      <link>/posts/sample-01/</link>
+      <link>//localhost:1313/posts/sample-01/</link>
       <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>/posts/sample-01/</guid>
-      <description>オーストラリアの研究チームが開発した新技術により、グレートバリアリーフの一部で サンゴの再生に成功。気候変動対策に希望の光。</description>
+      <guid>//localhost:1313/posts/sample-01/</guid>
+      <description>オーストラリアの研究チームが開発した新技術により、グレートバリアリーフの一部でサンゴの再生に成功。従来の方法では数十年かかるとされていた回復が、わずか3年で実現した。この技術は他の海域にも応用可能で、世界中の海洋生態系の保全に希望の光をもたらしている。現地の漁業関係者や観光業界からも歓迎の声が上がっており、持続可能な海洋利用のモデルケースとして注目されている。</description>
     </item>
   </channel>
 </rss>
