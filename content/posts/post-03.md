@@ -1,6 +1,6 @@
 ---
 title: "高さ30mの崖に取り残された犬が救出される"
-date: 2026-01-05
+date: 2026-01-05T00:00:00+09:00
 tags: ["地域", "イギリス"]
 external_url: "https://www.thepost.uk.com/news/coastguard-heroes-rescue-dog-stranded-on-100-foot-cliff-867592"
 country: "イギリス"

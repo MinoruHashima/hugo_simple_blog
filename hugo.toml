@@ -1,6 +1,20 @@
 baseURL = "/"
-languageCode = "ja"
 title = "Good Eyes S.S"
+
+# 多言語設定
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.ja]
+    languageName = "日本語"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    weight = 2
+  [languages.hr]
+    languageName = "Hrvatski"
+    weight = 3
 
 [pagination]
   pagerSize = 3

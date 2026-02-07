@@ -1,6 +1,6 @@
 ---
 title: "英国でジャケットポテト人気の復活"
-date: 2026-01-18
+date: 2026-01-18T00:00:00+09:00
 tags: ["食べ物", "ファストフード", "イギリス"]
 external_url: "https://www.theguardian.com/food/2026/jan/22/jacket-potatoes-sexy-again-humble-spud-became-fast-food-sensation"
 country: "イギリス"

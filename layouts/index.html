@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="{{ .Site.Language.Lang }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ .Site.Title }}</title>
   <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css?v={{ now.Unix }}">
+  <!-- 言語自動判別 -->
+  <script src="/js/language-redirect.js"></script>
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0756QJSNQW"></script>
   <script>
@@ -19,6 +21,21 @@
   <div class="container">
     <header>
       <h1>Good Eyes S.S</h1>
+      <nav class="language-switcher">
+        {{ range .Site.Languages }}
+          {{ if not (eq .Lang "hr") }}
+            {{ if eq $.Site.Language.Lang .Lang }}
+              <span class="current-lang">{{ .LanguageName }}</span>
+            {{ else }}
+              {{ $langUrl := "/" }}
+              {{ if ne .Lang "ja" }}
+                {{ $langUrl = printf "/%s/" .Lang }}
+              {{ end }}
+              <a href="{{ $langUrl }}" data-lang="{{ .Lang }}">{{ .LanguageName }}</a>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </nav>
     </header>
 
     <main>

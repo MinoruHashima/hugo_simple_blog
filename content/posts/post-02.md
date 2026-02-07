@@ -1,6 +1,6 @@
 ---
 title: "クロアチア全土でナイトミュージアムの開放"
-date: 2026-01-28
+date: 2026-01-28T00:00:00+09:00
 tags: ["文化", "クロアチア"]
 external_url: "https://www.thedubrovniktimes.com/lifestyle/culture/item/19351-dubrovnik-to-join-nationwide-night-of-museums-with-free-evening-openings-across-the-city"
 country: "クロアチア"

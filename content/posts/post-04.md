@@ -1,6 +1,6 @@
 ---
 title: "ウェンディの銅像モデル 60年越しに作品と対面"
-date: 2026-02-02
+date: 2026-02-02T00:00:00+09:00
 tags: ["イギリス", "ニュージーランド"]
 external_url: "https://www.rnz.co.nz/news/national/585652/it-s-me-statue-model-comes-face-to-face-with-younger-self-60-years-later"
 country: "ニュージーランド"

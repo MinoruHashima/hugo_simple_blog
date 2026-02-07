@@ -1,6 +1,6 @@
 ---
 title: "慈善団体の110周年でアン王女が記念の手紙"
-date: 2026-02-03
+date: 2026-02-03T00:00:00+09:00
 tags: ["イギリス"]
 external_url: "https://www.forcesnews.com/royals/royal-recognition-princess-anne-sends-letter-veterans-charitys-110th-anniversary"
 country: "イギリス"
