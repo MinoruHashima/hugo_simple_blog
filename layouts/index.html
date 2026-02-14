@@ -23,7 +23,7 @@
       <h1>Good Eyes S.S</h1>
       <nav class="language-switcher">
         {{ range .Site.Languages }}
-          {{ if not (eq .Lang "hr") }}
+          {{ if and (ne .Lang "hr") (ne .Lang "it") }}
             {{ if eq $.Site.Language.Lang .Lang }}
               <span class="current-lang">{{ .LanguageName }}</span>
             {{ else }}
