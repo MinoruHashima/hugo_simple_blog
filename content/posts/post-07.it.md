@@ -1,6 +1,7 @@
 ---
 title: "L'angelo somigliante alla premier Meloni perde di nuovo il volto"
 date: 2026-02-14T00:00:00+09:00
+draft: true
 tags: ["Italia"]
 country: "Italia"
 external_url: "https://edition.cnn.com/2026/02/05/europe/meloni-face-removed-church-scli-intl"
