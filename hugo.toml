@@ -15,6 +15,9 @@ defaultContentLanguageInSubdir = false
   [languages.hr]
     languageName = "Hrvatski"
     weight = 3
+  [languages.it]
+    languageName = "Italiano"
+    weight = 4
 
 [pagination]
   pagerSize = 3
